@@ -7,8 +7,8 @@ class Person:
     def introduce(self):  #Implement a method called introduce that prints a message introducing the person with their name, age, and gender.
         print(f"Hello, my name is {self.name}, a {self.age} years old {self.gender}.")  
 
-# Example usage:
-person1 = Person("Hello", 30, "female")
+# Example:
+person1 = Person("Hellen", 30, "female")
 person1.introduce()  # Create an instance of the Person class and call the introduce method to display the person's information.
 
 
